@@ -1,0 +1,9 @@
+[package]
+name = "StylusFramework"
+edition = "2024"
+
+[dependencies]
+MoveStdlib = { local = "../move-stdlib" }
+
+[addresses]
+stylus = "0x2"
